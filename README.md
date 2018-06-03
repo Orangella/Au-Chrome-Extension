@@ -6,3 +6,5 @@
 - типа аккаунта (магазин, про, "комфорт")
 - рейтинга продавца
 - формируемого пользователем черного списка (была использована pouchdb)
+
+![screen](https://github.com/Orangella/Au-Chrome-Extension/blob/master/interface.png)
