@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linkshare</title>
+    <link rel="stylesheet" href="css/hideSh.css" />
+    <script src="js/zepto.js"></script>
+    <script src="js/pouchdb-5.3.2.min.js"></script>
+    <script src="js/bList.js"></script>
+    <script src="popup.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <label>
+        <input id="isShop" type="checkbox" checked/>
+        Магазины
+    </label>
+    <label>
+        <input id="isComfort" type="checkbox" checked/>
+        Комфорт
+    </label>
+    <label>
+        <input id="isPro" type="checkbox" checked/>
+        Про
+    </label>
+    <label>Рейтинг</label>
+    <input id="raiting" value="100"/>
+    <label><img id="btnHide" src="hide.png" class="topicon" title="Скрыть" /></label>
+    <!--         <button id="btnHide">Скрыть</button>-->
+    <input id="blackList" placeholder="Имя пользователя"/>
+
+    <label data-tooltip="Save"><img id="save" src="save.png" class="topicon" title="Сохранить" /></label>
+
+
+    <!-- black list -->
+    <table id="thetable"></table>  
+    
+  </body>
+</html>
+
